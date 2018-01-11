@@ -1,0 +1,16 @@
+{
+    "verbose": false,
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "app/**/*.spec.ts"
+    ],
+    "watch": [
+        "app/**/*.js"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    },
+    "ext": "js",
+    "exec": "node ./app/bin/www.js"
+}
